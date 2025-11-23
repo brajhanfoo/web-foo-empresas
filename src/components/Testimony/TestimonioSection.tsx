@@ -69,6 +69,7 @@ export default function TestimoniosSection() {
 
   return (
     <section
+    id='testimony' 
       className="bg-[radial-gradient(ellipse_at_center,rgba(158,110,230,0.28)_0%,rgba(158,110,230,0)_60%)] text-white pb-[60px] lg:pb-52 px-2 relative grid pt-10"
       role="group"
       aria-roledescription="carousel"

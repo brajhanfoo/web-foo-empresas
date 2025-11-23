@@ -11,9 +11,10 @@ interface NavbarProperties {
 
 const navItems = [
   { name: 'Inicio', href: '/' },
-  { name: 'Servicios', href: '/services' },
-  { name: 'Proyectos', href: '/talents' },
-  { name: 'Preguntas Frecuentes', href: '/aboutus' },
+  { name: 'Servicios', href: '#services' },
+  { name: 'Proyectos', href: '#projects' },
+    { name: 'Testimonios', href: '#testimony' },
+  { name: 'Preguntas Frecuentes', href: '#faq' },
 
 ]
 

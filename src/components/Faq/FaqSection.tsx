@@ -4,7 +4,7 @@ import FaqItem from './FaqItem'
 
 export default function FaqSection() {
   return (
-    <section className="bg-black relative px-10 md:px-12 lg:px-16 pt-20 pb-24 overflow-hidden">
+    <section id='faq' className="bg-black relative px-10 md:px-12 lg:px-16 pt-20 pb-24 overflow-hidden ">
       {/* TITLE */}
       <Heading text="Preguntas Frecuentes" />
 

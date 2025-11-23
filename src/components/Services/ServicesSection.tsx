@@ -9,6 +9,7 @@ interface PropertiesServices {
 export default function ServicesSection({ services }: PropertiesServices) {
   return (
     <section
+    id='services' 
       className="
         px-6 
         py-24 

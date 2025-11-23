@@ -10,7 +10,7 @@ export default function ProjectsSection() {
   const [active, setActive] = useState(categories[0])
 
   return (
-    <section className="py-24 px-6 max-w-7xl mx-auto">
+    <section id='projects'  className="py-24 px-6 max-w-7xl mx-auto">
 
       <Heading text="Proyectos" />
 

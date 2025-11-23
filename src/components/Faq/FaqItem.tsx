@@ -19,7 +19,7 @@ export default function FaqItem({ faq }: Properties) {
         type="button"
         onClick={() => setIsOpen(!isOpen)}
         className="flex w-full items-center justify-between py-6 text-left font-medium 
-        text-gray-200 hover:text-white transition-colors"
+        text-gray-200 hover:text-white transition-colors cursor-pointer"
         aria-expanded={isOpen}
         aria-controls={`faq-panel-${faq.id}`}
         id={`faq-heading-${faq.id}`}
